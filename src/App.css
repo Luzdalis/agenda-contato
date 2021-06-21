@@ -1,38 +1,71 @@
-.App {
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+
+}
+
+.h1{
+  margin: 0%;
+}
+
+body{ 
+  margin: 0%;
+}
+
+.Headers{
   text-align: center;
+  background: rgba(226, 91, 28, 0.733);
+  box-shadow: 0px 3px 6px #00000029;
+  border-top: solid;
+  opacity: 1;
+  height: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Cadastro{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #faebc0;
+  text-align: -webkit-right;
+  padding: 1%;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.Input{
+  margin: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ListaVazia{
+  background-color: #faebc0;
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  padding: 5%;
+}
+
+.ListarContato{
+  background-color: #faebc0;
+  padding: 1% 0%;
+}
+
+.table{
+  justify-content: center;
+  margin: auto;
+  margin-top: 4%;
+  border: double;
+  background-color: rgba(248, 162, 122, 0.308);
+}
+
+.coluna{
+  border: double;
+}
+
+.Button{
+  font-weight: 900;
+  background-color: rgb(252, 249, 247);
+  border-radius: 15%;
+  margin: 2px;
 }

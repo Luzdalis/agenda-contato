@@ -1,0 +1,16 @@
+{
+  "contatos": [
+    {
+      "nome": "Luzdalis Lopez",
+      "email": "lalilopez31282@hotmail.com",
+      "telefone": "123131",
+      "id": 2
+    },
+    {
+      "nome": "carlos molina",
+      "email": "carlos@hotmail.com",
+      "telefone": "354252525",
+      "id": 3
+    }
+  ]
+}
